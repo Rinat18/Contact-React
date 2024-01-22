@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbar{
+  width: 87%;
+  display: flex;
+  justify-content: space-between;
 }
+.body{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-routes{
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-routes *{
+  font-size: 22px;
+  text-decoration: none;
+  color: blue;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.logo{
+  font-size: 22px;
+  color: black;
+}
+.cardContact{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 530px;
+  border: 2px solid black;
+  margin: 20px;
+}
+.cardText{
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+.information{
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+}
+.btns{
+  display: flex;
+  margin-top: 20px;
+
+}
+.editBtn{
+  width: 70px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.deleteBtn{
+  width: 70px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.name{
+  margin-left: 5px;
+}
+.phone{
+  margin-left: 5px;
+}
+.list{
+  margin-top: 50px;
+  width: 90%;
+}
+.list2{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardContact img{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 15px;
+  height: 350px;
+}
+.more{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+.detail{
+  width: 87%;
+  display: flex;
+  margin-top: 50px;
+}
+.detailImg{
+  width: 40%;
+}
+.detailText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+.namedetail{
+  margin-bottom: 20px;
+}
+.phonedetail{
+  margin-bottom: 20px;
 }
